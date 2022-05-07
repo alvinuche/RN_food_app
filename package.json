@@ -1,0 +1,50 @@
+{
+  "name": "food_app",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/masked-view": "^0.1.11",
+    "@react-navigation/native": "^6.0.6",
+    "react": "17.0.2",
+    "react-native": "0.66.1",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-paper": "^4.10.1",
+    "react-native-reanimated": "^2.2.3",
+    "react-native-safe-area-context": "^3.3.2",
+    "react-native-screens": "^3.8.0",
+    "react-native-vector-icons": "^9.0.0",
+    "react-navigation": "^4.4.4",
+    "react-navigation-drawer": "^2.7.1",
+    "react-navigation-header-buttons": "^6.3.1",
+    "react-navigation-material-bottom-tabs": "^2.3.4",
+    "react-navigation-stack": "^2.10.4",
+    "react-navigation-tabs": "^2.11.1",
+    "react-redux": "^7.2.6",
+    "redux": "^4.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/runtime": "^7.15.4",
+    "@react-native-community/eslint-config": "^3.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.1.0",
+    "@typescript-eslint/parser": "^5.1.0",
+    "babel-jest": "^27.3.1",
+    "eslint": "^8.1.0",
+    "eslint-plugin-react": "^7.26.1",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "jest": "^27.3.1",
+    "metro-react-native-babel-preset": "^0.66.2",
+    "react-test-renderer": "17.0.2",
+    "redux-devtools-extension": "^2.13.9"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

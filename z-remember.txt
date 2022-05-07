@@ -1,0 +1,4 @@
+===========================
+IMAGES
+===========================
+    when rendering image in react native the SOURCE property is either an object (when the image is coming from the web) or you use the REQUIRE function to render a local image as a string.
